@@ -19,7 +19,7 @@ model3 = load_model('model3.pkl')
 model4 = load_model('model4.pkl')
 
 # Select the model to use
-selected_model = st.selectbox('Select a model', ('Model 1', 'Model 2', 'Model 3')) 
+selected_model = st.selectbox('Select a model', ('Model 1', 'Model 2', 'Model 3','model 4)) 
 
 # read data from csv file
 data= pd.read_csv("IN_youtube_trending_data.csv")
