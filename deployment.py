@@ -148,7 +148,7 @@ if st.button('Predict'):
     # Display the prediction
     st.write(f'Prediction: {prediction[0]}')
 
-clicked=st.button("Get Prediction")
+clicked=st.button("Predict")
 print(clicked)
 # Changes in the code
 
